@@ -1,0 +1,200 @@
+$text-size: 50px;
+$dark-overlay:rgba(0,0,0,0.7);
+
+#contact{
+ 
+   a{
+     h2{
+       font-size: $text-size;
+     }
+   }
+   h6{
+     font-size: 20px;
+   }
+}
+
+
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background: url('../img/civil1.jpg');
+  background-size: cover;
+  h5{
+    color: tomato;
+  }
+  h2{
+    text-shadow: 2px 2px yellow;
+  }
+  
+}
+.carousel-img-2{
+  background: url('../img/civi.jpg');
+  background-size: cover;
+  h2{
+    color: springgreen;
+  }
+}
+#gallery{
+  background-color: silver;
+  img{
+    min-height: 250px;
+  }
+}
+#place{
+  background-color: rgb(43, 58, 63);
+  
+  img{
+    min-height: 250px;
+    min-width: 250px;
+
+  }
+}
+#aboutus{
+  
+    background-image: url('../img/image5.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 350px;
+}
+#company-about{
+  background-color: slategrey;
+}
+#project{
+  background-image: url('../img/image3.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 350px;
+}
+#home-video{
+  position: relative;
+  background: url(../img/image5.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+
+.dark-overlay{
+  background:$dark-overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.fa{
+  font-size: 50px;
+}
+}
+
+#testimonial{
+  .slick-prev:before,
+  .slick-next:before{
+      color: #000;
+  }
+}
+
+#serviceabout{
+  background-image: url('../img/image7.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 350px;
+}
+
+#servicesus{
+  background-color: #343A40;
+  opacity: 0.7;
+
+  ul{
+    list-style-type: square;
+  }
+  ul1{
+    list-style-type: roman;
+  }
+  ul2{
+    list-style-type: lower-alpha;
+  }
+}
+#contactabout{
+  background-image: url('../img/masum.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 350px;
+}
+
+
+
+
+
+@media(max-width: 992px){
+  #contact{
+    h6{
+      font-size: 15px;
+    }
+  }
+}
+
+@media(max-width: 768px){
+  #contact{
+    a{
+      p{
+        font-size: 10px;
+      }
+      h2{
+       font-size: 30px;
+     }
+    }
+    p{
+      font-size: 11px;
+    }
+    h6{
+      font-size: 12px;
+    }
+  }#place{
+    img{
+      min-height: 250px;
+      min-width: 250px;
+  
+    }
+  }
+
+}
+
+@media(max-width: 320px){
+
+    .carousel-img-2{
+      h2{
+          font-size: 1.5rem;
+          
+      }
+  }
+  
+}
+@media(max-width: 480px){
+
+  #contact{
+    a{
+      p{
+        font-size: 16px;
+      }
+      h2{
+       font-size: 35px;
+     }
+    }
+    p{
+      font-size: 20px;
+    }
+    h6{
+      font-size: 15px;
+    }
+  }
+
+  .carousel-img-2{
+    h2{
+        font-size: 2.5rem;
+        
+    }
+}
+
+}
+

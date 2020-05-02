@@ -1,0 +1,124 @@
+#contact a h2 {
+  font-size: 50px; }
+
+#contact h6 {
+  font-size: 20px; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/civil1.jpg");
+  background-size: cover; }
+  .carousel-img-1 h5 {
+    color: tomato; }
+  .carousel-img-1 h2 {
+    text-shadow: 2px 2px yellow; }
+
+.carousel-img-2 {
+  background: url("../img/civi.jpg");
+  background-size: cover; }
+  .carousel-img-2 h2 {
+    color: springgreen; }
+
+#gallery {
+  background-color: silver; }
+  #gallery img {
+    min-height: 250px; }
+
+#place {
+  background-color: #2b3a3f; }
+  #place img {
+    min-height: 250px;
+    min-width: 250px; }
+
+#aboutus {
+  background-image: url("../img/image5.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 350px; }
+
+#company-about {
+  background-color: slategrey; }
+
+#project {
+  background-image: url("../img/image3.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 350px; }
+
+#home-video {
+  position: relative;
+  background: url(../img/image5.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #home-video .fa {
+    font-size: 50px; }
+
+#testimonial .slick-prev:before,
+#testimonial .slick-next:before {
+  color: #000; }
+
+#serviceabout {
+  background-image: url("../img/image7.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 350px; }
+
+#servicesus {
+  background-color: #343A40;
+  opacity: 0.7; }
+  #servicesus ul {
+    list-style-type: square; }
+  #servicesus ul1 {
+    list-style-type: roman; }
+  #servicesus ul2 {
+    list-style-type: lower-alpha; }
+
+#contactabout {
+  background-image: url("../img/masum.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 350px; }
+
+@media (max-width: 992px) {
+  #contact h6 {
+    font-size: 15px; } }
+
+@media (max-width: 768px) {
+  #contact a p {
+    font-size: 10px; }
+  #contact a h2 {
+    font-size: 30px; }
+  #contact p {
+    font-size: 11px; }
+  #contact h6 {
+    font-size: 12px; }
+  #place img {
+    min-height: 250px;
+    min-width: 250px; } }
+
+@media (max-width: 320px) {
+  .carousel-img-2 h2 {
+    font-size: 1.5rem; } }
+
+@media (max-width: 480px) {
+  #contact a p {
+    font-size: 16px; }
+  #contact a h2 {
+    font-size: 35px; }
+  #contact p {
+    font-size: 20px; }
+  #contact h6 {
+    font-size: 15px; }
+  .carousel-img-2 h2 {
+    font-size: 2.5rem; } }
